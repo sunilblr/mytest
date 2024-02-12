@@ -6,7 +6,7 @@ pipeline {
     stage("Build") {
        steps {
           // Just print a Hello, Pipeline to the console
-          // echo "Hello, Pipeline!"
+             echo "Hello, Pipeline!"
           // Compile a Java file. This requires JDKconfiguration from Jenkins
           //javac HelloWorld.java
           // Execute the compiled Java binary called HelloWorld. This requires JDK configuration from Jenkins
