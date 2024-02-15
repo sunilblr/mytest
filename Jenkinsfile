@@ -5,7 +5,7 @@ pipeline {
     stage("Build") {
        steps {
           // Just print a Hello, Pipeline to the console
-             echo "Hello, Pipeline!"
+             echo "Hello from Pipeline!"
          
        }
    }
