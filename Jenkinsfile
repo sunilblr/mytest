@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage("Build") {
        steps {
-          // Just print a Hello, Pipeline to the console
+          // Just print a Hello to the console
              echo "Hello from Pipeline!"
          
        }
